@@ -1743,7 +1743,7 @@ a {
     width: 50px;
     position: absolute;
     top: 520px;
-    margin-left: -300px;
+    /* margin-left: -300px; */
     /* background-color: red; */
     /* margin-top: 200px; */
     z-index: 5;
@@ -1776,7 +1776,7 @@ a {
     width: 50px;
     position: absolute;
     top: 200px;
-    margin-left: -300px;
+    /* margin-left: -300px; */
     /* background-color: red; */
     /* margin-top: 200px; */
     z-index: 5;
