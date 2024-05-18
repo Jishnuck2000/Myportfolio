@@ -27,6 +27,8 @@
     width: 500px;
     background-color: rgba(237, 237, 9, 0.917);
     border-bottom-right-radius: 500px;
+    display: flex;
+    flex-wrap: wrap;
 
   }
   .p1-nav{
