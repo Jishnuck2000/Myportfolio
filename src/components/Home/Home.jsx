@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <div className="home">
-        <div className="bg1">
+        <div className="bg1" id="home-sec">
           <div className="bg11">
             <div className="home-p1" data-aos="fade-up">Hello !</div>
             <div className="home-p2" data-aos="fade-up">I am Jishnu C K</div>
@@ -30,12 +30,19 @@ const Home = () => {
               <img src="/github (1).png" className="btn-img"></img>
             </button></a>
           </div>
+          <img src="it.png" className="s-m"></img>
+          <img src="gh.png" className="s-m2"></img>
+          <img src="ld.png" className="s-m3"></img>
+          <img src="fb.png" className="s-m4"></img>
+
+
+
           <div className="bg12">
             <img src="/mypic.png" className="mypic" data-aos="zoom-in-up"></img>
           </div>
         </div>
 
-        <div className="bg2">
+        <div className="bg2" id="skill-sec" >
           <div className="bg21" data-aos="fade-up">Expertise</div>
           <div className="bg22">
             <div className="bg221" data-aos="fade-up">
@@ -60,7 +67,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="home-bg3">
+        <div className="home-bg3" id="project-sec">
           <div className="home-bg31" data-aos="fade-up">Personal Projects</div>
 
           <div className="card-container">
@@ -206,7 +213,7 @@ const Home = () => {
 
 
 
-<div className="home-bg5">
+<div className="home-bg5" id="contact-sec">
 
 <div className="home-bg51">
   <div className="bg51-h1">Getting in touch is easy!</div>

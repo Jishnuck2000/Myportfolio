@@ -19,21 +19,6 @@
 
 //           </div></div>
 
-// <div className="navbar2">
-
-//   <div className="navbar21"></div>
-//   <div className="navbar22">
-//    <a href="https://www.instagram.com/jishnu_c_k_/"><img src="/instagram.png" className="insta"></img></a>
-
-//    <a href="https://www.linkedin.com/in/jishnu-ck/"> <img src="/linkedin.png" className="insta"></img></a>
-//    <a href="https://github.com/Jishnuck2000"> <img src="/github (1).png" className="insta"/></a>
-//    <a href="https://www.facebook.com/jishnu.jishnu.14224094"><img src="/facebook.png" className="insta"/></a>
-
-//   </div>
-//   <div className="navbar23"></div>
-
-// </div>
-
 //     </div>
 //   );
 // }
@@ -64,10 +49,14 @@ const Nav = () => {
 
   return (
     <div>
+
       <div
         className={"navbar-main"}
         // className="navbar-main"
       >
+                      <div className="nav2"></div>
+
+
         <div className="navbar-menu-sec">
           <ul className="navbar-menu-items">
             <Link
@@ -208,6 +197,28 @@ const Nav = () => {
             </>
           )}
         </div>
+      </div>
+
+      <div className="navbar2">
+        <div className="navbar21"></div>
+        <div className="navbar22">
+          <a href="https://www.instagram.com/jishnu_c_k_/">
+            <img src="/instagram.png" className="insta"></img>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jishnu-ck/">
+            {" "}
+            <img src="/linkedin.png" className="insta"></img>
+          </a>
+          <a href="https://github.com/Jishnuck2000">
+            {" "}
+            <img src="/github (1).png" className="insta" />
+          </a>
+          <a href="https://www.facebook.com/jishnu.jishnu.14224094">
+            <img src="/facebook.png" className="insta" />
+          </a>
+        </div>
+        <div className="navbar23"></div>
       </div>
     </div>
   );
