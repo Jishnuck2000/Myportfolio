@@ -45,13 +45,21 @@ const Home = () => {
               my portfolio and previous endeavors.{" "}
             </div>
            
-            <a
+            {/* <a
                 href="/myprofile.pdf"
                 download="myprofile.pdf"
               >
 <button className="btn-home3" data-aos="fade-up" >
               Download CV
             </button>      
+              </a> */}
+
+  <a
+                href="/myprofile.pdf"
+                download="myprofile.pdf"
+                className="btn-home3" data-aos="fade-up"
+              >
+                <div className="dw">Download CV</div>
               </a>
             <a href="https://www.linkedin.com/in/jishnu-ck/">
               <button className="btn-home" data-aos="fade-up">

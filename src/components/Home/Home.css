@@ -123,7 +123,12 @@
   color: white;
   border: none;
   border-radius: 10px;
+  text-align: center;
   margin-left: 50px;
+  
+}
+.dw{
+  margin-top: 13px;
 }
 .btn-home3:hover {
   background-color: #4c4c4b;
@@ -1436,6 +1441,7 @@ a {
     justify-content: start;
     margin-top: 550px;
   }
+  
   .bg1 {
     padding-top: 100px;
     /* background-color: blueviolet; */
@@ -1748,6 +1754,9 @@ a {
     /* margin-top: 200px; */
     z-index: 5;
   }
+  .s-m:hover{
+    background-color: #2e2e2e;
+  }
   .s-m2{
     display: flex;
     height: 50px;
@@ -1781,4 +1790,5 @@ a {
     /* margin-top: 200px; */
     z-index: 5;
   }
+  
 }
