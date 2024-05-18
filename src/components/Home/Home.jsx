@@ -241,14 +241,16 @@ const Home = () => {
                     </ul>
                   </div>
                   <div className="img-p4">
+                    <a href="https://github.com/Jishnuck2000/Myportfolio">
                     <button className="btn111-imgp4">
                       <img src="/git1.png" className="git-imgp4"></img>
                       <h3 className="git-btn">Github</h3>
-                    </button>
+                    </button></a>
+                    <a href="https://myportfolio-seven-rust.vercel.app/">
                     <button className="btn222-imgp4">
                       <img src="/logout1.png" className="git-imgp4"></img>
                       <h3 className="git-btn">Go to web</h3>
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               </div>
